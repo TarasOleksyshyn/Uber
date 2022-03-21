@@ -285,6 +285,7 @@ html {
   line-height: 31px;
   text-align: center;
   text-transform: uppercase;
+  padding: 0 8px;
 }
 
 .mobile_item_plus {
@@ -721,20 +722,40 @@ html {
 }
 
 @media (max-width: 575px) {
+  .header {
+    height: 30px;
+  }
+  .header .nav {
+    min-height: 30px;
+  }
   .subheader {
     height: 60px;
   }
+  .subheader_logo {
+    margin-top: 17px;
+  }
+  .subheader_phone {
+    font-size: 12px;
+  }
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+  }
   .promo {
-    padding: 102px 0 34px;
     min-height: 400px;
+    padding: 102px 0 34px;
   }
   .promo_header {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 0 24px;
   }
   .promo_subheader {
-    font-size: 21px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 7px;
+    margin-top: 33px;
   }
   .promo_descr {
     display: none;
@@ -744,5 +765,26 @@ html {
     height: 50px;
     font-size: 16px;
     margin-top: 72px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .subtitle {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 16px;
+  }
+  .descr {
+    font-size: 14px;
+  }
+  .advantages_item_logo {
+    margin-left: 0;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .advantages_item_descr {
+    margin-left: 0;
+    width: 100%;
   }
 }

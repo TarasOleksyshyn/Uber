@@ -189,19 +189,39 @@
 }
 
 @media (max-width: 575px){
+  .header {
+    height: 30px;
+    .nav {
+      min-height: 30px;
+    }
+  }
   .subheader {
     height: 60px;
+    &_logo{
+      margin-top: 17px;
+    }
+    &_phone {
+      font-size: 12px;
+    }
+    &_btn {
+      width: 110px;
+      height: 22px;
+      font-size: 10px;
+    }
   }
   .promo {
-    padding: 102px 0 34px;
     min-height: 400px;
+    padding: 102px 0 34px;
     &_header {
-      font-size: 36px;
-      line-height: 42px;
+      font-size: 30px;
+      line-height: 35px;
+      padding: 0 24px;
     }
     &_subheader {
-      font-size: 21px;
-      line-height: 28px;
+      font-size: 20px;
+      line-height: 30px;
+      padding: 0 7px;
+      margin-top: 33px;
     }
     &_descr {
       display: none;
@@ -211,6 +231,31 @@
       height: 50px;
       font-size: 16px;
       margin-top: 72px;
+    }
+  }
+  .menu {
+    width: 80%;
+  }
+  .subtitle {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 16px;
+  }
+  .descr {
+    font-size: 14px;
+  }
+  .advantages {
+    &_item {
+      &_logo {
+        margin-left: 0;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+      }
+      &_descr {
+        margin-left: 0;
+        width: 100%;
+      }
     }
   }
 }
